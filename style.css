@@ -57,9 +57,14 @@ h2 {
   flex-wrap: wrap;
   padding: 10px 100px;
   gap: 50px;
-  
   justify-content: center;
-  margin: 0 auto;
+  
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
 }
 
 .section-one-content {
@@ -68,7 +73,29 @@ h2 {
   align-items: center;
   gap: 32px;
   flex: 0;
-  margin: 10px 50px 80px 50px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.section-two-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  margin-bottom: 50px;
+  
+}
+
+.section-two-boxes {
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+  align-items: center;
+}
+
+.subtext {
+  text-align: center;
+  padding-top: 10px;
 }
 
 .section-one-top {
@@ -100,12 +127,16 @@ h2 {
   padding-right: 150px;
 }
 
-
+h3 {
+  font-size: 36px;
+  text-align: center;
+  padding: 10px;
+}
 
 
 
 .section-two-box {
-  border: solid black 1px;
+  border: solid #3882f6 3px;
   height: 100px;
   width: 100px;
   border-radius: 10px;
