@@ -3,24 +3,42 @@ body {
   
   margin: 0;
   
+  
+}
+
+img {
+  height: 200px;
+  width: auto;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+ 
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
+
+  
   
 }
 
-div {
-  height: 690px;
+a {
+  color: white;
+}
+
+.section.one {
+  
+}
+
+.section-two-box {
+  border: solid black 1px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
 }
 
 .footer {
-  height: 200px;
+  
 }
 
 .section.one,
